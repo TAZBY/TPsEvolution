@@ -22,9 +22,9 @@ public class Main {
 //		String prPathBin = "C:\\Users\\pc\\Desktop\\Study\\Master\\RestructionMaintenance\\TP5\\Product_CRUD_TP5\\target" ;
 //		String prPathOutPut = "C:\\Users\\pc\\Desktop\\Study\\Master\\RestructionMaintenance\\TP5\\Product_CRUD_TP5\\spooned" ;
 //		
-		String prPath = "C:\\Users\\fds.depinfo\\eclipse-workspace\\Product_CRUD_TP5\\src" ;
-		String prPathBin = "C:\\Users\\fds.depinfo\\eclipse-workspace\\Product_CRUD_TP5\\target" ;
-		String prPathOutPut = "C:\\Users\\fds.depinfo\\eclipse-workspace\\Product_CRUD_TP5\\spooned" ;
+		String prPath = "C:\\Users\\zaino\\eclipse-workspace\\TP5\\src" ;
+		String prPathBin = "C:\\Users\\zaino\\eclipse-workspace\\TP5\\target" ;
+		String prPathOutPut = "C:\\Users\\zaino\\eclipse-workspace\\TP5\\spooned" ;
 		SpoonParser parser = new SpoonParser();
 		parser.setLauncher(prPath, prPathBin,prPathOutPut);
 		Launcher launcher =  parser.getLauncher();
@@ -32,8 +32,8 @@ public class Main {
 		launcher.addProcessor(new Processor());
 		launcher.addProcessor(new ClassProcessor());
 		launcher.addProcessor(new MethodProcessor());
-	    launcher.run();
-		System.out.println("Le code des logs a été bien générée !");
+	    	launcher.run();
+		System.out.println("Log generated successfully");
 	}
      
   
